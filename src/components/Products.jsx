@@ -16,7 +16,7 @@ export function Products() {
       <h3 className="text-4xl font-bold text-white mb-12">Our Products</h3>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-12 w-full max-w-6xl">
-        {/* Product Card 1 */}
+        {/* Product Card 1  */}
         <div
           ref={ref1}
           className={`bg-white rounded-lg shadow-lg p-8 text-center transform transition duration-700 hover:scale-105 hover:shadow-2xl ${

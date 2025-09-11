@@ -36,7 +36,7 @@ export function Services() {
           </p>
         </div>
 
-        {/* Service 2 */}
+        {/* Service 2 
         <div
           ref={ref2}
           className={`bg-white rounded-lg shadow-lg p-6 text-center transform transition duration-700 hover:scale-105 hover:shadow-2xl ${
@@ -54,7 +54,6 @@ export function Services() {
           </p>
         </div>
 
-        {/* Service 3 */}
         <div
           ref={ref3}
           className={`bg-white rounded-lg shadow-lg p-6 text-center transform transition duration-700 hover:scale-105 hover:shadow-2xl ${
@@ -70,7 +69,7 @@ export function Services() {
           <p className="text-gray-600">
             Expert guidance and assistance to ensure hassle-free construction supply.
           </p>
-        </div>
+        </div> */}
       </div>
     </section>
   );

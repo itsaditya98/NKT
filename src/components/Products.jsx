@@ -2,7 +2,6 @@ import React from "react";
 import { useInViewAnimation } from "../hooks/useInViewAnimation";
 
 export function Products() {
-  const BASE_URL = import.meta.env.BASE_URL;
 
   const [ref1, visible1] = useInViewAnimation();
   const [ref2, visible2] = useInViewAnimation();

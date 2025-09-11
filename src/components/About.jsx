@@ -2,7 +2,6 @@ import React from "react";
 import { useInViewAnimation } from "../hooks/useInViewAnimation";
 
 export function About() {
-  const BASE_URL = import.meta.env.BASE_URL;
   const [ref, visible] = useInViewAnimation();
 
   return (
@@ -19,7 +18,7 @@ export function About() {
           }`}
         >
           <img
-            src="https://itsaditya98.github.io/NKT/images/hero.png" // <-- place your about image here
+            src="https://itsaditya98.github.io/NKT/images/hero.png"
             alt="About NKT Cement"
             className="w-full h-full object-cover"
           />

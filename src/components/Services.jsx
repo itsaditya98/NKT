@@ -24,7 +24,7 @@ export function Services() {
           }`}
         >
           <img
-            src="./public/images/service.png"
+            src="/NKT/images/service.png"
             alt="Cement Delivery"
             className="w-60 h-60 mx-auto object-contain mb-4"
           />
@@ -36,7 +36,7 @@ export function Services() {
           </p>
         </div>
 
-        {/* Service 2 
+        {/* Service 2 */}
         <div
           ref={ref2}
           className={`bg-white rounded-lg shadow-lg p-6 text-center transform transition duration-700 hover:scale-105 hover:shadow-2xl ${
@@ -44,7 +44,7 @@ export function Services() {
           }`}
         >
           <img
-            src="/images/service.png"
+            src={`${import.meta.env.BASE_URL}images/service.png`}
             alt="Bulk Orders"
             className="w-32 h-32 mx-auto object-contain mb-4"
           />
@@ -54,8 +54,7 @@ export function Services() {
           </p>
         </div>
 
-        Service 3 
-
+        {/* Service 3 */}
         <div
           ref={ref3}
           className={`bg-white rounded-lg shadow-lg p-6 text-center transform transition duration-700 hover:scale-105 hover:shadow-2xl ${
@@ -63,7 +62,7 @@ export function Services() {
           }`}
         >
           <img
-            src="/images/service.png"
+            src={`${BASE_URL}images/service.png`}
             alt="Customer Support"
             className="w-32 h-32 mx-auto object-contain mb-4"
           />
@@ -71,7 +70,7 @@ export function Services() {
           <p className="text-gray-600">
             Expert guidance and assistance to ensure hassle-free construction supply.
           </p>
-        </div> */}
+        </div>
       </div>
     </section>
   );

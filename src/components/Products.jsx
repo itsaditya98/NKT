@@ -24,7 +24,7 @@ export function Products() {
           }`}
         >
           <img
-            src="/NKT/images/opc.jpg"
+            src="https://itsaditya98.github.io/NKT/images/opc.jpg"
             alt="Cement"
             className="mx-auto w-32 h-32 object-contain mb-4"
           />
@@ -39,7 +39,7 @@ export function Products() {
           }`}
         >
           <img
-            src="/NKT/images/cement.jpg"
+            src="https://itsaditya98.github.io/NKT/images/cement.jpg"
             alt="Ordinary Portland Cement (OPC)"
             className="mx-auto w-32 h-32 object-contain mb-4"
           />

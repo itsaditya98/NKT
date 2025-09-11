@@ -19,7 +19,7 @@ export function About() {
           }`}
         >
           <img
-            src="/NKT/images/hero.png" // <-- place your about image here
+            src="https://itsaditya98.github.io/NKT/images/hero.png" // <-- place your about image here
             alt="About NKT Cement"
             className="w-full h-full object-cover"
           />

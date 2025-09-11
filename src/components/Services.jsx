@@ -24,7 +24,7 @@ export function Services() {
           }`}
         >
           <img
-            src="/NKT/images/service.png"
+            src="https://itsaditya98.github.io/NKT/images/service.png"
             alt="Cement Delivery"
             className="w-60 h-60 mx-auto object-contain mb-4"
           />

@@ -12,7 +12,7 @@ export function Products() {
       id="products"
       className="min-h-screen bg-gradient-to-l from-yellow-100 via-white to-gray-50 flex flex-col items-center justify-center py-16 px-4 text-center"
     >
-      <h3 className="text-4xl font-bold text-white mb-12">Our Products</h3>
+      <h3 className="text-4xl font-bold text-gray-800 mb-12">Our Products</h3>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-12 w-full max-w-6xl">
         {/* Product Card 1  */}

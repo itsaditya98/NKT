@@ -25,9 +25,9 @@ export function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.3 }}
-          className="mt-6 text-white text-lg leading-relaxed"
+          className="mt-20 text-white text-lg leading-relaxed"
         >
-          NKT is authorized distributor of UltraTech Cement. Delivering excellence in construction supply across Ghaziabad & Gautam
+          Neel Kanth Traders (NKT) is authorized distributor of UltraTech Cement. Delivering excellence in construction supply across Ghaziabad & Gautam
           Budh Nagar. 
         </motion.p>
 

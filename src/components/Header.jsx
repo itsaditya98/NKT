@@ -4,7 +4,9 @@ export function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-gray-800 bg-opacity-90 text-white p-4 sticky top-0 z-50 backdrop-blur-sm">
+        
+    <header className="bg-gray-800 bg-opacity-80 text-white p-4 sticky top-0 z-50 backdrop-blur-sm">
+
       <div className="flex justify-between items-center">
         {/* NKT title (responsive + clickable) */}
         <a href="/NKT/" className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold hover:text-yellow-400 transition duration-300">

@@ -4,21 +4,23 @@ export function Footer() {
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
-            <h2 className="text-2xl font-bold mb-4">NKT</h2>
+            <h3 className="text-lg font-semibold mb-4">NKT</h3>
             <p className="text-gray-400 mb-4 max-w-md">
-              Authorized distributor of UltraTech Cement.
+              Authorized distributor of UltraTech Cement across Ghaziabad & Gautam Budh Nagar.
             </p>
+          </div>
+          <div>
+            <h3 className="text-lg font-semibold mb-4">Online presence & marketplace</h3>
             <div className="flex space-x-6">
               <a href="https://www.indiamart.com/neel-kanth-traders-gautam-buddha-nagar/"
               className="text-gray-400 hover:text-white"
               target="_blank"
               rel="noopener noreferrer">
               <span className="sr-only">IndiaMART</span>
-              <p>IndiaMart</p>
               <img
               src="https://static.cdnlogo.com/logos/i/39/indiamart.svg"
               alt="IndiaMART"
-              className="h-6 w-6"/>
+              className="h-14 w-14"/>
               </a>
             </div> 
           </div>

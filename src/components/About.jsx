@@ -31,9 +31,9 @@ export function About() {
             visible ? "animate-slideUp" : "opacity-0"
           }`}
         >
-          <h3 className="text-4xl font-bold text-gray-800 mb-6">About Us</h3>
+          <h3 className="text-4xl font-bold text-gray-800 mb-6">About NKT</h3>
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
-            <span className="font-semibold text-yellow-500">NKT Cement</span>, 
+            <span className="font-semibold text-yellow-500">Neelkanth Traders (NKT)</span>, 
             proudly serving as the{" "}
             <span className="font-semibold">authorized distributor of UltraTech Cement</span>, 
             has been delivering excellence in construction supply across{" "}
